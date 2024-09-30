@@ -13,6 +13,7 @@ export const scraping = async(keyword)=>{
                 title: link.getAttribute('title'), 
                 url: link.href, 
                 price: link.querySelector('.price--3SnqI span'),
+
             }));
         });
 
@@ -20,7 +21,7 @@ export const scraping = async(keyword)=>{
 
         return listings; 
     } catch (error) {
-        console.log(error);
+        console.log("pupeter util error: ",error);
         
     }
 }
