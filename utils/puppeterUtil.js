@@ -45,6 +45,6 @@ export const scraping = async (keyword) => {
         await browser.close(); 
         return detailedListing
     } catch (error) {
-        console.error("pupeter util error",error);
+        console.log("pupeter util error",error);
     }
 };
