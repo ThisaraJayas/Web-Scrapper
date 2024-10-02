@@ -33,11 +33,11 @@ git clone https://github.com/ThisaraJayas/Web-Scrapper.git
 ```
 
 ### 2. Install Dependencies
+- It is required to run npm install to install all dependencies before running the project to avoid any crashes or issues. You can do this using the following command:
 ```bash
 npm install
 ```
 
 ### 3. Start the Server
 ```bash
-npm install
 npm start
