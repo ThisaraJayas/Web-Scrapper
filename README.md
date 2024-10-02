@@ -1,4 +1,4 @@
-# Ikman.lk Web Scraper
+# Web Scraper
 
 This project is a web scraper for ikman.lk that uses Puppeteer integrated with Express.js backend. It allows users to search for listings based on a provided keyword and returns the scraped data as a JSON response via an API endpoint.
 
