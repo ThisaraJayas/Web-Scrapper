@@ -1,5 +1,5 @@
 import express from 'express';
-import { scrapListing } from '../controllers/scraperController.js';
+import { scrapListing } from '../controllers/ScraperController.js';
 
 const router = express.Router();
 
